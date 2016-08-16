@@ -3,29 +3,31 @@
 Hosts是一个没有扩展名的系统文件，可以用记事本等软件进行修改，它的作用就是将一些常用的网址跟IP地址建立一种“**指引**”关系，当客户端访问网址时首先在本机的Hosts文件中寻找是否有对应的IP地址，如果有的话，系统会立即打开对应网页，否则就会将网址提交到DNS服务器进行IP地址的解析。
 <hr>
 ##各系统Hosts文件位置
-**重要要的事情说三遍**
-Hosts文件是没有扩展名的，文件名就是Hosts !
-Hosts文件是没有扩展名的，文件名就是Hosts !
-Hosts文件是没有扩展名的，文件名就是Hosts！
+**重要要的事情说三遍**<br>
+Hosts文件是没有扩展名的，文件名就是Hosts !<br>
+Hosts文件是没有扩展名的，文件名就是Hosts !<br>
+Hosts文件是没有扩展名的，文件名就是Hosts！<br>
 
 **Windows**系统
-```C:\Windows\System32\drivers\etc\hosts```
-
+<br>
+C:\Windows\System32\drivers\etc\hosts
+<br>
 **Android**（安卓）系统
-
-```/system/etc/hosts```
-
+<br>
+/system/etc/hosts
+<br>
 **Mac**（苹果电脑）系统
-```/etc/hosts```
-
+<br>
+/etc/hosts
+<br>
 **iPhone**（iOS）系统
-
-```/etc/hosts```
-
+<br>
+/etc/hosts
+<br>
 **Linux**系统hosts位于
-
-```/etc/hosts```
-
+<br>
+/etc/hosts
+<br>
 ##修改注意事项
 
 你可以使用任意文本编辑软件编辑该文件，但是Hosts文件属于系统核心文件，需要获取管理员权限方可修改,Mac、iPhone、iPad也必须越狱才能修改。Windows系统跟苹果系统的hosts文件文本编码和换行符格式一样，而Android需要使用ANSI编码格式，务必注意，否则修改可能无效！
