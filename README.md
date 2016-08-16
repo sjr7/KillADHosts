@@ -10,24 +10,24 @@ Hosts文件是没有扩展名的，文件名就是Hosts！<br>
 
 **Windows**系统
 <br>
-C:\Windows\System32\drivers\etc\hosts
+```C:\Windows\System32\drivers\etc\hosts```
 <br>
 **Android**（安卓）系统
 <br>
-/system/etc/hosts
+```/system/etc/hosts```
 <br>
 **Mac**（苹果电脑）系统
 <br>
-/etc/hosts
+```/etc/hosts```
 <br>
 **iPhone**（iOS）系统
 <br>
-/etc/hosts
+```/etc/hosts```
 <br>
 **Linux**系统hosts位于
 <br>
-/etc/hosts
-<br>
+```/etc/hosts```
+<hr>
 ##修改注意事项
 
 你可以使用任意文本编辑软件编辑该文件，但是Hosts文件属于系统核心文件，需要获取管理员权限方可修改,Mac、iPhone、iPad也必须越狱才能修改。Windows系统跟苹果系统的hosts文件文本编码和换行符格式一样，而Android需要使用ANSI编码格式，务必注意，否则修改可能无效！
