@@ -32,12 +32,12 @@ Hosts文件是没有扩展名的，文件名就是Hosts！<br>
 
 你可以使用任意文本编辑软件编辑该文件，但是Hosts文件属于系统核心文件，需要获取管理员权限方可修改,Mac、iPhone、iPad也必须越狱才能修改。Windows系统跟苹果系统的hosts文件文本编码和换行符格式一样，而Android需要使用ANSI编码格式，务必注意，否则修改可能无效！
 
-<blockquote>Windows用户必须用管理员身份打开才能修改保存，如果遇到无法保存，请右键文件hosts并找到“属性” -> “安全”，然后选择你登陆的用户名，最后点击编辑，勾选“写入”即可。
+Windows用户必须用管理员身份打开才能修改保存，如果遇到无法保存，请右键文件hosts并找到“属性” -> “安全”，然后选择你登陆的用户名，最后点击编辑，勾选“写入”即可。
 <hr>
 Android（安卓）必须Root才能修改，Root Explorer管理器或ES文件浏览器装载/system可写状态，找到/system/etc/hosts的文件，使用文本编辑器打开编辑后保存。
 <hr>
 Linux系统使用Root权限vi编辑
-</blockquote>
+
 
 ##修改hosts后生效的方法
 
